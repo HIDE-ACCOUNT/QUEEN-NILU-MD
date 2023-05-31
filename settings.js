@@ -7,8 +7,8 @@ const chalk = require('chalk')
 */
 
 //Owner Number & Name 
-global.owner = ['94767438882'] //ur owner number
-global.ownername = "Janith sadanuwan" //ur owner name
+global.owner = ['94758179948'] //ur owner number
+global.ownername = "KALINDU" //ur owner name
 
 //Bot Name 
 global.botname = 'ǫᴜᴇᴇɴ ɴɪʟᴜ' //ur bot name
@@ -45,7 +45,7 @@ global.INBOX_BLOCK_MSG = 'blockedd'
 global.ANTI_BADWORD = 'true'
 
 
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 QUEEN NILU ²⁰²³'
+global.cap = '© ɢᴇɴᴇʀᴇᴛᴇᴅ ʙʏ Qᴜᴇᴇɴ ɴɪʟᴜ ²⁰²³'
 
 // Menu imoji 
 global.MENU_IMOJI = '💃|🧸'
@@ -65,10 +65,10 @@ global.KICK_MSG = ' '
 
 //Links (URLS)
 global.ytname = "YT: janithsadanuwan" //ur yt chanel name
-global.socialm = "GitHub: janithsadanuwan" //ur github or insta name
+global.socialm = "GitHub: MR-KAPAYA" //ur github or insta name
 global.linkz = "https://chat.whatsapp.com/" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtu.be/c/janithsadanuwan" //ur website to be displayed
-global.botscript = 'https://github.com/janithsadanuwan/QueenNilu' //script link
+global.botscript = 'https://github.com/MR-KAPAYA/QUEEN-NILU-MD' //script link
 
 //Alive 
 global.alivelogo = process.env.ALIVE_LOGO || `https://te.legra.ph/file/a9293226a7c660ecbfffb.jpg`
