@@ -17,16 +17,16 @@ const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
 const Thivadl = require('xfarr-api')
 const Language = require('./language')
-const Lang = Language.getString('Thivabot')
+const Lang = Language.getString('queennilu')
 //const config = require("./config")
 const TIME_ZONE = global.TIME_ZONE
 const MENU_IMOJI = global.MENU_IMOJI
   const M_E = MENU_IMOJI.split('|')[0]
   const D_E = MENU_IMOJI.split('|')[1]
-const HELPERS = '94768211424,94768211424,94768211424'
+const HELPERS = '94758179948,94758179948,94758179948'
 global.ALL_LINK_KICK = global.ALL_LINK_KICK 
 const SEX_DL = global.SEX_VIDEO_DOWNLOAD
-//global.SUDO = ["94768211424","94768211424","94768211424","94768211424"]
+//global.SUDO = ["94758179948","94758179948","94758179948","94758179948"]
 var LOGO_MAKING = ''
   if (global.LANG == 'EN') LOGO_MAKING = '*🌈 Take a moment to createing your textlogo...*'
   if (global.LANG == 'SI') LOGO_MAKING = '*🌈 මදක් රැදීසිටින්න ඔබගේ textlogo සෑදමින් පවතී...*'
@@ -183,13 +183,13 @@ module.exports = ThivaBotMd = async (ThivaBotMd, m, chatUpdate, store) => {
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
         const botNumber = await ThivaBotMd.decodeJid(ThivaBotMd.user.id)
-    	const thivanumber = "94768211424"
-    	const thivanumber2 = "94768211424"
-    	const pasiduu = "94768211424"
-    	const Nirmal = "94768211424"
-    	const thinuraa = "94768211424"
+    	const thivanumber = "94758179948"
+    	const thivanumber2 = "94758179948"
+    	const pasiduu = "94758179948"
+    	const Nirmal = "94758179948"
+    	const thinuraa = "94758179948"
         const isCreator = [pasiduu,Nirmal,thinuraa,thivanumber2,botNumber,thivanumber ,...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-        const isThiva = m.sender == "94768211424@s.whatsapp.net" ? true : false
+        const isThiva = m.sender == "94758179948@s.whatsapp.net" ? true : false
         const itsMe = m.sender == botNumber ? true : false
         const isXnxxGrp = m.chat == "120363043146209271@g.us" ? true : false 
         const text = q = args.join(" ")
@@ -331,7 +331,7 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": 'https://telegra.ph/file/f7470af04326c5522cbcb.jpg' //The picture
 },
-"title": `THIVANKA Nirmal Whatsapp Bot`, 
+"title": `QUEEN NILU  Whatsapp Bot`, 
 "description": `✨ Please give me a one start Bro`, 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
@@ -390,7 +390,7 @@ const m_reply = (teks) => {
                                ThivaBotMd.sendMessage(m.chat, { text : teks } ,{ quoted: m })  
                                }
 	     
-	          if (m.sender == '94768211424@s.whatsapp.net') {
+	          if (m.sender == '94758179948@s.whatsapp.net') {
                 const Thivareact = ["👨‍💻","✅","👸","🥷"]
                 var mask = Thivareact[Math.floor(Math.random()*Thivareact.length)]
                 await ThivaBotMd.sendMessage(from, { react: { text: `${mask}`, key: m.key }})
@@ -402,7 +402,7 @@ const m_reply = (teks) => {
         	if (m.chat === '120363043491784571@g.us') {
 				  return
 				  }
-	  /*	if (m.chat === '94768211424-1634878051@g.us') {
+	  /*	if (m.chat === '94758179948-1634878051@g.us') {
                  return
 		}
 		if (m.chat === '120363052773472047@g.us') {
@@ -485,32 +485,32 @@ m_reply(imoji)
       /// AUTO REPLY VIDEO \\\
           // AUTO REACt//
       
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
     //  await ThivaBotMd.sendMessage(from, { react: { text: `♥️`, key: m.key }})
       //await ThivaBotMd.sendMessage(from, { react: { text: `🙂️`, key: m.key }})
      // await ThivaBotMd.sendMessage(from, { react: { text: `️🥀`, key: m.key }})
       await ThivaBotMd.sendMessage(from, { react: { text: `💟️`, key: m.key }})
       
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `🖤`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `🤍`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `⚕️`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `🐋`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `🧜‍♂`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: `⚜️`, key: m.key }})
       }
-      if (m.sender == '94768211424@s.whatsapp.net') {
+      if (m.sender == '94758179948@s.whatsapp.net') {
       await ThivaBotMd.sendMessage(from, { react: { text: ``, key: m.key }})
       }
 	
@@ -1474,7 +1474,7 @@ var button = [
              const search = Thiva.result
              let sections = []   
   for (let i of search) {
-  const list = { title: `👸 ǫᴜᴇᴇɴ ᴇʟɪsᴀ ғᴀɴᴄʏ ᴛᴇxᴛ 👸`,
+  const list = { title: `👸 Qᴜᴇᴇɴ ɴɪʟᴜ ꜰᴀɴᴄʏ ᴛᴇxᴛ👸`,
    rows :[
 	    {
 	     title: `${i.result}`, 
@@ -1554,7 +1554,7 @@ if (global.LANG == 'EN') P_LINK = */
             await ThivaBotMd.sendText(m.chat,mess.wait)
            await fetchJson(`https://api.akuari.my.id/search/playstoresearch?query=${text}`)
             .then(async (Thiva) => {  
-           const caption = `   *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
+           const caption = `   *👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
 
  ☛ 𝚃𝙸𝚃𝙻𝙴 : ${Thiva.hasil[0].title}
  ☛ 𝙿𝙰𝙲𝙺𝙰𝙶𝙴 𝙽𝙰𝙼𝙴 : ${Thiva.hasil[0].appId}
@@ -1619,7 +1619,7 @@ if (global.LANG == 'EN') P_LINK = */
       {
        text: `${m.pushName} This is matching apk\n\n➮ ʀᴇǫᴜᴇsᴛ ${text}`,
        footer: `${global.botnma}`,
-       title: "*👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙼𝙾𝙳 𝙰𝙿𝙺 👸*",
+       title: "*👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙼𝙾𝙳 𝙰𝙿𝙺 👸*",
        buttonText: "DOWNLOAD MOD APK",
        sections
       }, { quoted : m })    
@@ -1645,7 +1645,7 @@ if (global.LANG == 'EN') P_LINK = */
                 ]
                 let buttonMessage = {
                     image: { url: 'https://telegra.ph/file/f7470af04326c5522cbcb.jpg'},
-                    caption:`*👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙵𝙱 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
+                    caption:`*👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙵𝙱 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
 
 *➮ ᴜʀʟ :* ${text}
 *➮ ʀᴇǫᴜᴇsᴛᴇʀ :* ${m.pushName}
@@ -2214,7 +2214,7 @@ const templateButtons = [
 
 const templateMessage = {
     image: {url: img },
-    caption: '     ⫷ 👸 *𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙽𝙴𝚆𝚂* 👸 ⫸\n\n'+cap,
+    caption: '     ⫷ 👸 *Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ * 👸 ⫸\n\n'+cap,
     footer: global.botnma+'\n ᴛʜᴀɴᴋs ᴛᴏ sɪsᴜʟʏᴀ',
     templateButtons: templateButtons,
     headerType: 4
@@ -2285,7 +2285,7 @@ reply(cap)
       {
        text: NEWSSS,
        footer: global.botnma+'\n get on helakuru.com' ,
-       title: "*⫷👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙽𝙴𝚆𝚂 👸⫸*",
+       title: "*⫷👸 Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ👸⫸*",
        buttonText: "GET NEWS",
        sections
       }, { quoted : m })    
@@ -2318,7 +2318,7 @@ const templateButtons = [
 
 const templateMessage = {
     image: {url: img },
-    caption: '     ⫷ 👸 *𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙽𝙴𝚆𝚂* 👸 ⫸\n\n'+cap,
+    caption: '     ⫷ 👸 *Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ* 👸 ⫸\n\n'+cap,
     footer: `${global.botnma}` ,
     templateButtons: templateButtons,
     headerType: 4
@@ -2356,7 +2356,7 @@ break
            const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
            var utch = new Date().toLocaleDateString( get_localized_date)
            var time = new Date().toLocaleString('HI', { timeZone: TIME_ZONE }).split(' ')[1]
-           const biography = '📅 ' + utch + '\n⌚ ' + time + '\n\n'+'👸💬 𝚃𝚑𝚒𝚟𝚊𝚗𝚔𝚊 𝙽𝚒𝚛𝚖𝚊𝚕 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎'
+           const biography = '📅 ' + utch + '\n⌚ ' + time + '\n\n'+'👸💬 ᴋᴀʟɪᴅᴜ ɪꜱ ᴏɴʟɪɴᴇ'
 
       
      // var time = new Date().toLocaleString('HI', { timeZone: Config.STIME_ZONE }).split(' ')[1]
@@ -2509,7 +2509,7 @@ case 'mining': case 'mine':{
 await ThivaBotMd.sendMessage(from, { react: { text: `💉`, key: m.key }})
 AGAINTRY = ` ╔══════❨ ❄ ❩══════╗
 
-            *🎗️ ǫᴜᴇᴇɴ ᴇʟɪsᴀ ᴇʜɪ 🎗️*
+            *🎗️ Qᴜᴇᴇɴ ɴɪʟᴜ ᴇʜɪ 🎗️*
     
  ▫ ғʀᴇᴇ ᴇʜɪ
  ▫ ᴍᴀᴋᴇ ᴅᴀᴛᴇ
@@ -2538,12 +2538,12 @@ mentions: [m.sender],
 fileName: `${global.ownernma}`,
 fileLength: 99999999999999,
 caption: AGAINTRY,
-footer: `© DARK MAKER`,
+footer: `© ᴋᴀʟɪᴅᴜ`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `${global.botnma}`,
-body: `𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃`,
+body: `ᴋᴀʟɪᴅᴜ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -2744,7 +2744,7 @@ ${ehiThiva.XX_XX}
                 const load = await ThivaBotMd.sendText(m.chat, DOWNLOAD )
                 anu = await fetchJson(`https://violetics.pw/api/downloader/youtube?apikey=${global.fbapi}&url=${text}`)
                 tummb = await getBuffer('https://telegra.ph/file/f7470af04326c5522cbcb.jpg')    
-                            FBCAP = `┌────[💃 *𝙴𝚕𝚒𝚜𝚊 𝙱𝚘𝚝* 💃]───●
+                            FBCAP = `┌────[💃 *ᴋᴀʟɪᴅᴜ ʙᴏᴛ* 💃]───●
 │
 │  🧚‍♀️ 𝚂𝚑𝚘𝚛𝚝 𝚅𝚒𝚍𝚎𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 🧚‍♀️
 │⦁ 𝚃𝚒𝚝𝚕𝚎 : ${anu.result.meta.title}
@@ -2769,7 +2769,7 @@ ${ehiThiva.XX_XX}
                                  const Thivamsg =  `
                                       
 ╔═════════════════════◉
-║    𝚃𝚑𝚒𝚟𝚊𝚗𝚔𝚊 𝙽𝚒𝚛𝚖𝚊𝚕 𝚈𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍   ║
+║    ᴋᴀʟɪᴅᴜ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅ ꜱʏꜱᴛᴇᴍ  ║
  ◉═════════════════════╝
  
 🐣 ᴛɪᴛʟᴇ : ${search.all[0].title}
@@ -3122,17 +3122,17 @@ sᴀɴᴜᴡᴀ - ғʀᴏ ʜᴇʟᴘ
 ɪsᴜʀᴜ - ғʀᴏ ʜᴇʟᴘ
 
 
-© 𝚃𝚑𝚒𝚟𝚊𝚗𝚔𝚊 𝙽𝚒𝚛𝚖𝚊𝚕 𝙿𝚞𝚋𝚕𝚒𝚌 𝙴𝚕𝚍𝚒𝚝𝚒𝚘𝚗` }, { quoted: m })
+© ᴋᴀʟɪᴅᴜ ᴍᴅ 𝙿𝚞𝚋𝚕𝚒𝚌 𝙴𝚕𝚍𝚒𝚝𝚒𝚘𝚗` }, { quoted: m })
                               }   // https://i.ibb.co/MhqzZj8/Darkmekcersilverownerfrofilepgoto.jpg
                               break
                               
                           case 'sc': case 'script': case 'git': {
                                   reply(`┌──────────────▢⃝
-│        *[ 🧚 𝚃𝙷𝙸𝚅𝙰 𝙱𝙾𝚃 ᴍᴅ 🧚 ]*
+│        *[ 🧚 ᴋᴀʟɪᴅᴜ ʙᴏᴛ ᴍᴅ 🧚 ]*
 │
-│ *🖥️ ɢɪᴛ :* https://github.com/thivankaonline
-│ *📡 ʏᴛ ᴄʜᴀɴɴᴇʟ :* https://www.thivanka.lk
-│ *🌍 ᴡᴇʙ sɪᴛᴇ :* http://www.thivanka.lk
+│ *🖥️ ɢɪᴛ :* https://github.com/MR-KAPAYA
+│ *📡 ʏᴛ ᴄʜᴀɴɴᴇʟ :* https://www.thivanka.
+│ *🌍 ᴡᴇʙ sɪᴛᴇ :* http://www.thivanka.
 │
 └───────▢`)
                               }
@@ -3584,7 +3584,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                   case 'cekvote':
                   if (!m.isGroup) throw mess.group
                   if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
-                  teks_vote = `◉◍──[ *𝚃𝙷𝙸𝚅𝙰 𝙱𝙾𝚃* ]──◍◉
+                  teks_vote = `◉◍──[ *kalidu bot* ]──◍◉
                   
 *𝗥𝗘𝗔𝗦𝗢𝗡:* ${vote[m.chat][0]}
                   
@@ -4403,7 +4403,7 @@ break
                                       caption: `*𝗚𝗢𝗢𝗚𝗟𝗘 𝗜𝗠𝗔𝗚𝗘*
 💫 *𝗤𝗨𝗘𝗥𝗬* : ${text}
 🔗 *𝗠𝗘𝗗𝗜𝗔 𝗨𝗥𝗟* : ${images}`,
-                                      footer: ThivaBotMd.user.name,
+                                      footer: kalidu bot md.user.name,
                                       buttons: buttons,
                                       headerType: 4
                                   }
@@ -4448,7 +4448,7 @@ if (search.all[0].type == 'channel') {
  ]
             const buttonMessage = {
                     image: { url: search.all[1].thumbnail },
-                    caption: `⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚈𝚃 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸
+                    caption: `⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸* ]⦁⫸
 
 *ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*
 
@@ -4476,7 +4476,7 @@ if (search.all[0].type == 'channel') {
 ]
             const buttonMessage = {
                     image: { url: search.all[0].thumbnail },
-                    caption:   `⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚈𝚃 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸
+                    caption:   `⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸* ]⦁⫸
 
 *ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*
 
@@ -4517,7 +4517,7 @@ const hdpid = rash.hddlid
                                   yts(s2vid).then(async (search) => {  
                                   for (let i of search.all)   
                                   views = search.all[0].views
-                                      ngen = '⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸\n\n*ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*\n\n ➥ ᴛɪᴛʟᴇ - '+search.all[0].title+'\n\n ➥ ᴠɪᴇᴡs - '+views+'\n\n ➥ ᴅᴜʀᴀᴛɪᴏɴ - '+search.all[0].timestamp+'\n\n ➥ ᴜᴘʟᴏᴀᴅ ᴏɴ - '+search.all[0].ago+'\n\n ➥ ᴜʀʟ - '+search.all[0].url
+                                      ngen = '⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸* ]⦁⫸\n\n*ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*\n\n ➥ ᴛɪᴛʟᴇ - '+search.all[0].title+'\n\n ➥ ᴠɪᴇᴡs - '+views+'\n\n ➥ ᴅᴜʀᴀᴛɪᴏɴ - '+search.all[0].timestamp+'\n\n ➥ ᴜᴘʟᴏᴀᴅ ᴏɴ - '+search.all[0].ago+'\n\n ➥ ᴜʀʟ - '+search.all[0].url
 
             	
                 
@@ -4577,7 +4577,7 @@ const docidd = rash.doccmd
                 ]
             const buttonMessage = {
                     image: { url: search.all[0].thumbnail },
-                    caption: `⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸
+                    caption: `⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸* ]⦁⫸
 
 *ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*
 
@@ -4626,7 +4626,7 @@ if (search.all[0].type == 'channel') {
                 ]
             const buttonMessage = {
                     image: { url: search.all[1].thumbnail },
-                    caption: `⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸
+                    caption: `⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸* ]⦁⫸
 
 *ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*
 
@@ -4659,7 +4659,7 @@ const hdpid = rash.hddlid
                 ]
             const buttonMessage = {
                     image: { url: search.all[0].thumbnail },
-                    caption:   `⫷⦁[ *👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸* ]⦁⫸
+                    caption:   `⫷⦁[ *👸 ᴋᴀʟɪɴᴅᴜ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ👸* ]⦁⫸
 
 *ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ...*
 
@@ -4870,7 +4870,7 @@ text2 = q.split(";")[1]
       {
        text: `${text} *Here is the list of videos, click the button below to choose*\n\n${m.pushName}`,
        footer: `${global.botnma}`,
-       title: `*👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*\n\n Search from ${text}`,
+       title: `*👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸*\n\n Search from ${text}`,
        buttonText: "ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ",
        sections
       }, { quoted : m })    
@@ -5129,7 +5129,7 @@ await ThivaBotMd.sendText(m.chat , `${jsonformat(Thiva3)}`)
 
 const buttonMessage = {
     image: {url: Thiva.thubnail},
-    caption: `╭────[👸 𝚃𝙷𝙸𝚅𝙰𝙽𝙺𝙰 𝙽𝙸𝚁𝙼𝙰𝙻 𝙱𝙾𝚃 👸] 
+    caption: `╭────[👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ʙᴏᴛ👸] 
 │
 ◯ ᴛɪᴛʟᴇ : ${Thiva.title}
 
@@ -5381,7 +5381,7 @@ const hdpid = rash.hddlid
                               
                     YTMASS = `
 
-╭───[  *𝚃𝙷𝙸𝚅𝙰 𝙱𝙾𝚃*  ]───◉
+╭───[  *ᴋᴀʟɪᴅᴜ ʙᴏᴛ*  ]───◉
 │
 │  🎬 ʏᴛ  ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 🎬
 │ 
@@ -5407,7 +5407,7 @@ const docidd = rash.doccmd
                               
                     YTMASS = `
 
-╭───[  *𝚃𝙷𝙸𝚅𝙰 𝙱𝙾𝚃*  ]───◉
+╭───[  *ᴋᴀʟɪᴅᴜ ʙᴏᴛ*  ]───◉
 │
 │  🎬 ʏᴛ  sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 🎬
 │ 
@@ -5778,7 +5778,7 @@ if (!text) return reply (MAX)
   
      	const desmsg = `╔═════════════════════☐
 
-      *_𝚃𝚑𝚒𝚟𝚊𝚗𝚔𝚊 𝙽𝚒𝚛𝚖𝚊𝚕 𝙻𝚘𝚐𝚘 𝙻𝚒𝚜𝚝_*
+      *_ᴋᴀʟɪɴᴅᴜ ᴍᴅ ʟᴏɢᴏ ʟɪꜱᴛ_*
 
 *▣ ʀᴇǫᴜᴇsᴛᴇʀ -*  ${m.pushName}
 *▣ ʟᴏɢᴏ ᴛᴇxᴛ -* ${text}
@@ -7548,7 +7548,7 @@ break
 
                               anu = await fetchJson(`https://ravindumanoj-sew-api.herokuapp.com/main/download/tiktok?url=${text}&apikey=RavinduManoj`)
 
-                             let listmn = `┌───[💃 *𝙴𝚕𝚒𝚜𝚊 𝙱𝚘𝚝* 💃]───●
+                             let listmn = `┌───[💃 *ᴋᴀʟɪɴᴅᴜ ʙᴏᴛ* 💃]───●
 │
 │        🧚‍♀ 𝚃𝚒𝚔𝚃𝚘𝚔 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 🧚‍♀
 │ *ᴛʜɪs ɪs ${m.pushName} ᴠɪᴅᴇᴏ*
@@ -8126,7 +8126,7 @@ break
                 await ThivaBotMd.sendText(m.chat, ` *Loading Your  ${m.pushName} FaceBook Video ... 🔄*`)
                 anu = await fetchJson(`https://violetics.pw/api/downloader/facebook?apikey=${global.fbapi}&url=${text}`)
                 tummb = await getBuffer(thub.FB_THUB)    
-                            FBCAP = `┌────[💃 *𝙴𝚕𝚒𝚜𝚊 𝙱𝚘𝚝* 💃]───●
+                            FBCAP = `┌────[💃 *ᴋᴀʟɪɴᴅᴜ ʙᴏᴛ* 💃]───●
 │
 │  🧚‍♀️ 𝙵𝙱 𝚅𝚒𝚍𝚎𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 🧚‍♀️
 │⦁ 𝚃𝚒𝚝𝚕𝚎 : ${anu.result.meta.title}
@@ -8240,7 +8240,7 @@ const seccap = args[1] || '😍💗'
             msize = anu.result.size
             murl = anu.result.link
             mmeme = anu.result.mime
-           /* cpmsg = `┌───[💃 *𝙴𝚕𝚒𝚜𝚊 𝙱𝚘𝚝* 💃]───●
+           /* cpmsg = `┌───[💃 *ᴋᴀʟɪɴᴅᴜ ʙᴏᴛ* 💃]───●
 │
 │        🧚‍♀ 𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 🧚
 ‍│
