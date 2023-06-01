@@ -5,10 +5,10 @@
 <img src="https://te.legra.ph/file/8be699bf71bfa93acac3f.jpg" width="300" height="300"/>
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Queen+Nilu+Whatsapp+Multidevice+Bot+;Created+By+Janiya" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Queen+Nilu+Whatsapp+Multidevice+Bot+;Created+By+KALINDU" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Janiya-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-KALINDU-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Janithsadanuwan?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
@@ -20,7 +20,6 @@
 <a href="https://github.com/Janithsadanuwan/QueenNilu/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
-## [`WebSite`](https://www.janithsadanuwan.tech/QueenNilu)
 
 # 
 
@@ -29,7 +28,7 @@
 Queen Nilu whatsapp bot is,
 A very good bot that you can use in whatsapp.
 
-## [`Fork QueenNilu Repo`](https://github.com/Janithsadanuwan/QueenNilu/fork)
+## [`Fork QueenNilu Repo`](https://github.com/MR-KAPAYA/QUEEN-NILU-MD/fork)
 
 
 # 
