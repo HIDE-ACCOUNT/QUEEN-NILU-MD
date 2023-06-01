@@ -1474,7 +1474,7 @@ var button = [
              const search = Thiva.result
              let sections = []   
   for (let i of search) {
-  const list = { title: `👸 Qᴜᴇᴇɴ ɴɪʟᴜ ꜰᴀɴᴄʏ ᴛᴇxᴛ👸`,
+  const list = { title: `👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ꜰᴀɴᴄʏ ᴛᴇxᴛ👸`,
    rows :[
 	    {
 	     title: `${i.result}`, 
@@ -1554,7 +1554,7 @@ if (global.LANG == 'EN') P_LINK = */
             await ThivaBotMd.sendText(m.chat,mess.wait)
            await fetchJson(`https://api.akuari.my.id/search/playstoresearch?query=${text}`)
             .then(async (Thiva) => {  
-           const caption = `   *👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
+           const caption = `   *👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 👸*
 
  ☛ 𝚃𝙸𝚃𝙻𝙴 : ${Thiva.hasil[0].title}
  ☛ 𝙿𝙰𝙲𝙺𝙰𝙶𝙴 𝙽𝙰𝙼𝙴 : ${Thiva.hasil[0].appId}
@@ -1619,7 +1619,7 @@ if (global.LANG == 'EN') P_LINK = */
       {
        text: `${m.pushName} This is matching apk\n\n➮ ʀᴇǫᴜᴇsᴛ ${text}`,
        footer: `${global.botnma}`,
-       title: "*👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙼𝙾𝙳 𝙰𝙿𝙺 👸*",
+       title: "*👸 ᴋᴀʟɪᴅᴜ ᴍᴅ ᴍᴏᴅ ᴀᴘᴋ👸*",
        buttonText: "DOWNLOAD MOD APK",
        sections
       }, { quoted : m })    
@@ -1644,8 +1644,8 @@ if (global.LANG == 'EN') P_LINK = */
                     
                 ]
                 let buttonMessage = {
-                    image: { url: 'https://telegra.ph/file/f7470af04326c5522cbcb.jpg'},
-                    caption:`*👸 Qᴜᴇᴇɴ ɴɪʟᴜ 𝙵𝙱 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 👸*
+                    image: { url: 'https://telegra.ph/file/847b54dd9c025e6d02c3c.jpg'},
+                    caption:`*👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ꜰʙ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ👸*
 
 *➮ ᴜʀʟ :* ${text}
 *➮ ʀᴇǫᴜᴇsᴛᴇʀ :* ${m.pushName}
@@ -2214,7 +2214,7 @@ const templateButtons = [
 
 const templateMessage = {
     image: {url: img },
-    caption: '     ⫷ 👸 *Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ * 👸 ⫸\n\n'+cap,
+    caption: '     ⫷ 👸 *ᴋᴀʟɪɴᴅᴜ ᴍᴅ ɴᴇᴡꜱ * 👸 ⫸\n\n'+cap,
     footer: global.botnma+'\n ᴛʜᴀɴᴋs ᴛᴏ sɪsᴜʟʏᴀ',
     templateButtons: templateButtons,
     headerType: 4
@@ -2285,7 +2285,7 @@ reply(cap)
       {
        text: NEWSSS,
        footer: global.botnma+'\n get on helakuru.com' ,
-       title: "*⫷👸 Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ👸⫸*",
+       title: "*⫷👸 ᴋᴀʟɪɴᴅᴜ ᴍᴅ ɴᴇᴡꜱ👸⫸*",
        buttonText: "GET NEWS",
        sections
       }, { quoted : m })    
@@ -2318,7 +2318,7 @@ const templateButtons = [
 
 const templateMessage = {
     image: {url: img },
-    caption: '     ⫷ 👸 *Qᴜᴇᴇɴ ɴɪʟᴜ ɴᴇᴡꜱ* 👸 ⫸\n\n'+cap,
+    caption: '     ⫷ 👸 *ᴋᴀʟɪɴᴅᴜ ᴍᴅ ɴᴇᴡꜱ* 👸 ⫸\n\n'+cap,
     footer: `${global.botnma}` ,
     templateButtons: templateButtons,
     headerType: 4
@@ -2509,7 +2509,7 @@ case 'mining': case 'mine':{
 await ThivaBotMd.sendMessage(from, { react: { text: `💉`, key: m.key }})
 AGAINTRY = ` ╔══════❨ ❄ ❩══════╗
 
-            *🎗️ Qᴜᴇᴇɴ ɴɪʟᴜ ᴇʜɪ 🎗️*
+            *🎗️ ᴋᴀʟɪɴᴅᴜ ᴍᴅ ᴇʜɪ 🎗️*
     
  ▫ ғʀᴇᴇ ᴇʜɪ
  ▫ ᴍᴀᴋᴇ ᴅᴀᴛᴇ
