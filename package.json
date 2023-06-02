@@ -1,5 +1,5 @@
 {
-  "name": "QUEEN-ELISA-MD",
+  "name": "QUEEN-NILU-MD",
   "version": "3.8.6",
   "description": "Queen Elisa Whatsapp Bot is Baileys Web base Whatsapp 3rd Party Module",
   "type": "commonjs",
@@ -15,9 +15,9 @@
     "bot",
     "bot-md",
     "multi-device",
-    "dark-maker-ofc"
+    "kalidu-ofc"
   ],
-  "author": "MR-NIMA",
+  "author": "MR-KALIDU",
   "license": "AGPL-3",
   "dependencies": {
     "@adiwajshing/baileys" : "npm:baileys-md@5.0.5",
